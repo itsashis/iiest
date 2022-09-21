@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-                sh "cat 01_s3.yml"
+                echo" Hello"
             }
         }
     }
